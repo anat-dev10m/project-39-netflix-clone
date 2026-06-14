@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://127.0.0.1:3000/netflix2.html?vscode-livepreview=true -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Netflix2_files/___vscode_livepreview_injected_script"></script>
+    
+    <title>Netflix2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .container {
+            height: auto;
+            width: auto;
+            background-color: black;
+            overflow: auto;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .item img {
+            border-radius: 10px;
+            transition: all 0.5s ease;
+
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        #head {
+            color: whitesmoke;
+        }
+
+        #title h2 {
+            color: whitesmoke;
+            font-family: sans-serif
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 250px;
+            height: 250px;
+            background-color: whitesmoke;
+            border: 10px solid black;
+            border-radius: 10px;
+            background-color: rgb(43, 3, 43);
+            color: white;
+            font-family: sans-serif;
+            overflow: hidden;
+        }
+
+        .main {
+            overflow: auto;
+        }
+
+        .box h3 {
+            color: rgb(100, 98, 109);
+        }
+
+        .box h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="head">
+            <h1>Trending Now</h1>
+        </div>
+        <div class="first">
+            <div class="item iem1">
+                <img src="./Netflix2_files/AAAABV634RJ705XipxQXbUOmWTlPM6NMLGOMgv8O6-1mpxjUiHuGTO8aU_smM_58vn7E3eNAHVvWJq0PdI-Nfb186hH-lCfPKhOAdpg.webp" width="130px" height="200px">
+            </div>
+            <div class="item item2"> <img src="./Netflix2_files/AAAABY63h-h1Gon9p3n_dSWmou2ZyN__EntViMFXWrNen_vEcZGZ7-_P9_z-hxdiUdzgbN83VIT29Y9tL6qEg5MJryhB2k6k1kxsyeFMlH5GvvBIqaqk_qc8LS0XezttgoZGS2hX.webp" width="130px" height="200px">
+            </div>
+            <div class="item item3"><img src="./Netflix2_files/AAAABaBljvFdAV1SGGPNXCcLpojtQjNb4MKKevyP-yHCBfzIW1zsZ-8lMn0-MwNMua8X5VZ0yjjzrfAZ4QFqxDdAIcVxsnTAtj2JNIUSZt5IEgJ15eSk4YSmd0XZk0PBW_XNHsbL.webp" width="130px" height="200px">
+            </div>
+            <div class="item item4"> <img src="./Netflix2_files/AAAABY_CYX46yPMYNGA4LSbVvD77ejIrQ7vIv5DvlC1-ys_pcz7S36EcshLY7bZ4alWybc9YP9hoP5iqyljC2O9s9Sfue57jQI2jD3U.webp" width="130px" height="200px">
+            </div>
+            <div class="item item5"> <img src="./Netflix2_files/AAAABYWfklg5D5btQoekHBjGHSFXDW_EezXrT97RnSaEwirkVnCt91QaQlcPWCxtfkSrW04hOcHguRrAMgyKTJzs2_PKkFkbs60DHC4.webp" width="130px" height="200px">
+            </div>
+            <div class="item item6"> <img src="./Netflix2_files/AAAABfVr3AFRJUTlwiBo4JbBj1bbpf_NfEZRRvvsj0qU7aYoY8To-wi9dSY1k1bAKXIt7MuTW5ZCyoIVwxoJOMNghayVkZcqIRN59qs.webp" width="130px" height="200px">
+            </div>
+            <div class="item item7"> <img src="./Netflix2_files/AAAABUet8hcKke_oXjU3AC4J8G-bc-HZP2ZY-Th80oBke3G3arUch8e3JG9vXVeu4xshLAQedlDlncuVlmHnSEoEsn0qxeq3qbjBGEtLB0Xz9eaa53Fzw6fqkUjUPHXyzajWW-Dx.webp" width="130px" height="200px">
+            </div>
+            <div class="item item8"> <img src="./Netflix2_files/AAAABUQuiGL7J98QLQ-I_nR0OFe8yLAQ9mQBVbBQJpnWE48QFvE9_BaZoz3fzrvnIjwA0Wh3JfcVeIFCbP7zZw2pFKyJg0ZzJrTBzyM.webp" width="130px" height="200px">
+            </div>
+            <div class="item item9"> <img src="./Netflix2_files/AAAABcaxAOO875GJCdVuF0m1TZ3t7bpSuHTJByPn3R_IUKqnTVM3S9XmcC4-g-Ep1TblyvtA-xEjnx4TKXkxqIX8uBSLvyp-xQUUyfntLLUhwqlyTdsAomLuue-Df9gov2xymJYy.webp" width="130px" height="200px">
+            </div>
+            <div class="item item10"> <img src="./Netflix2_files/AAAABWuYCksEgDVxmAt7osOPgI2JPrTg2rMKChNtrxGYOLk3f3lSwPn_7LIgNlYR23qKIZJXY5GGnrrJuv4AL0rviaWSXxSAE4G-p5D1D88PG5Yre0PcmS2Xmg5eMIJmi9ZRx3J6.webp" width="130px" height="200px">
+            </div>
+        </div>
+        <div class="second">
+            <div id="title">
+                <h2>More reasons to join</h2>
+            </div>
+            <div class="main">
+                <div class="box box1">
+                    <h2>Enjoy on your TV</h2>
+                    <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+                </div>
+                <div class="box box2">
+                    <h2>Download your shows to watch offline</h2>
+                    <h3>Save your favourites easily and always have something to watch.</h3>
+                </div>
+                <div class="box box3">
+                    <h2>Watch everywhere
+                    </h2>
+                    <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+
+                    </h3>
+                </div>
+                <div class="box box4">
+                    <h2>Create profiles for kids
+                    </h2>
+                    <h3>Send kids on adventures with their favourite characters in a space made just for them — free
+                        with your membership.
+
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
